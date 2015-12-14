@@ -8,6 +8,12 @@
 	padding:10px 0px 10px 0px;
 }
 
-.info p {
-	display:block;
+.info {
+	width:466px;
+	float: left;
+}
+
+
+#googleMap {
+	float:left;
 }
