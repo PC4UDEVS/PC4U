@@ -1,0 +1,30 @@
+.main-section {
+	font-family: 'Karla', sans-serif;
+	background-color: #FFFFFF;
+	width: 100%;
+	overflow: hidden;
+}
+
+.main-section li {
+	list-style-type: none;
+}
+
+.summary {
+	width: 388px;
+	float: left;
+}
+
+.price {
+	width: 190px;
+	float: left;
+	text-align: right;
+}
+
+.price li:first-child {
+	margin-top: 35px;
+}
+
+.tab li {
+	padding-left: 35px;
+	list-style-type: circle;
+}
