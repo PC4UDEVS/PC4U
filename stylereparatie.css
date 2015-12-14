@@ -28,3 +28,23 @@
 	padding-left: 35px;
 	list-style-type: circle;
 }
+
+.conditions {
+	width: 388px;
+	float: right;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+.conditions h3 {
+	font-size: 20px;
+	margin: 5px 0 5px 0;
+}
+
+.conditions p {
+	margin: 0 0 10px 0;
+}
+
+.conditions a {
+	color: black;
+}
