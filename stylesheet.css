@@ -24,11 +24,6 @@ body {
 	background-color: #1aff1a;
 }
 
-.company img {
-	height: 66px;
-	width: 350px;
-}
-
 .logo {
 	float: left;
 }
@@ -46,6 +41,10 @@ body {
 	padding-top: 10px;
 }
 
+.nav ul {
+	overflow: hidden;
+}
+
 .nav li {
 	display: block;
 	text-align: center;
@@ -57,7 +56,12 @@ body {
 	font-family: 'Karla', sans-serif;
 }
 
-.nav li:nth-child(5) {
+.nav li:first-child {
+	border-top-left-radius: 30px;
+}
+
+.nav li:last-child {
+	border-top-right-radius: 30px;
 	border-right: none;
 }
 
@@ -75,13 +79,12 @@ body {
 }
 
 .title {
-	height: 45px;
 	text-align: center;
 	border-bottom: 1px solid black;
 }
 
 .title h2 {
-	padding-top: 10px;
+	padding: 10px 0;
 	font-weight: bold;
 	font-size: 24px;
 }
@@ -123,7 +126,7 @@ body {
 
 .products img {
 	width: 220px;
-	height: 160px;
+	/*height: 160px;*/
 }
 
 .product {
