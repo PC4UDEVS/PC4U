@@ -1,0 +1,13 @@
+.main-section {
+	background-color:#FFFFFF;
+	font-family: "karla", sans-serif;
+}
+
+.titel h1 {
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
+
+.info p {
+	display:block;
+}
