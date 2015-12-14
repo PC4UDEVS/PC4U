@@ -13,6 +13,10 @@
 	float: left;
 }
 
+.info p:first-child {
+	margin-bottom:5px;
+}
+
 
 #googleMap {
 	float:left;
