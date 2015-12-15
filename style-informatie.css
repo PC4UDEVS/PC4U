@@ -13,6 +13,10 @@
 	float: left;
 }
 
+.info p {
+	padding: 5px 10px;
+}
+
 .info p:first-child {
 	margin-bottom:5px;
 }
