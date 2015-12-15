@@ -48,49 +48,8 @@
 					E-mail: PH80@rocwb.nl
 					</p>
 					</div>
-					<div id="googleMap" style="width:500px;height:380px;"></div>
-					<script
-					src="http://maps.googleapis.com/maps/api/js">
-					</script>
-
-					<script>
-					function initialize() {
-  					var mapProp = {
-    				center:new google.maps.LatLng(51.606460,4.778266),
-    				zoom:17,
-    				mapTypeId:google.maps.MapTypeId.ROADMAP
-  					};
-  					var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-					}
-					google.maps.event.addDomListener(window, 'load', initialize);
-					function initializeMap() {
-					  // Initialize the map here
-					  // ...
-
-					  // Create a geocoder object
-					  geocoder = new google.maps.Geocoder();
-
-					//Call the geocoder with a callback that adds a marker to the map.
-
-					  geocoder.geocode( { 'address': wedding.where},
-					    function(results, status) {
-					      if (status == google.maps.GeocoderStatus.OK) {
-					        map.panTo(results[0].geometry.location);
-					        var marker = new google.maps.Marker({
-					          map: map,
-					          animation: google.maps.Animation.DROP,
-					          position: results[0].geometry.location
-					        });
-					        google.maps.event.addListener(marker, 'click',
-					          function() { clickWedding(wedding); }
-					        );
-					      }
-					      else {
-					        alert("Geocode was not successful for '" + PC4U + "' for the following reason: " + status);
-					      }
-					    }
-					  );
-					</script>
+					<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1473.3691583315017!2d4.776773675197775!3d51.606689943212075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f986ff1e1b1%3A0xde96dee71e46a13f!2sRadius+College!5e0!3m2!1snl!2snl!4v1450189410013" width="450" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  
 			</div>
 		</div>
 	</body>
