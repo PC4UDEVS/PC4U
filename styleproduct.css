@@ -76,18 +76,19 @@
 .productspecs {
 	float: left;
 	width: 45%;
+	margin: 12px 0 0 20px;
 }
 
 .specrow {
 	width: 100%;
 	display: block;
-	margin: 20px 0px 0px 10px;
 	overflow: hidden;
+	margin: 8px 0 0 0;
 }
 
 .specrow p {
 	float: left;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .specrow img {
