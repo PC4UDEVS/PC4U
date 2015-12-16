@@ -90,7 +90,7 @@ body {
 }
 
 .categories {
-	width: 194px;
+	width: 20%;
 	float: left;
 }
 
@@ -137,7 +137,8 @@ body {
 
 .product {
 	float: left;
-	margin: 10px 35px 10px 10px;
+	margin: 15px 35px 10px 10px;
+	position: relative;
 }
 
 .product:nth-child(4) {
@@ -156,6 +157,18 @@ body {
 .product h3:hover {
 	background-color: #d3d3d3;
 	border-radius: 10px;
+}
+
+.discount {
+	width: 70px;
+	background-color: red;
+	position: absolute;
+	font-size: 22px;
+	right: 20px;
+	top: 1px;
+	border-radius: 3px;
+	color: white;
+	transform: rotate(30deg);
 }
 
 .review {
