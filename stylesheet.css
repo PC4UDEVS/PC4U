@@ -154,9 +154,9 @@ body {
 	color: black;
 }
 
-.product h3:hover {
+.product:hover {
 	background-color: #d3d3d3;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .discount {
@@ -164,8 +164,8 @@ body {
 	background-color: red;
 	position: absolute;
 	font-size: 22px;
-	right: 20px;
-	top: 1px;
+	right: -10px;
+	top: 5px;
 	border-radius: 3px;
 	color: white;
 	transform: rotate(30deg);
@@ -224,6 +224,7 @@ body {
 
 .besproduct p {
 	text-align: left;
+	margin: 0 10px 0 10px;
 }
 
 .besproduct h3, .besproduct h4, .besproduct p {

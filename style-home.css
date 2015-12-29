@@ -29,17 +29,29 @@
 .slidecontainer {
 	width:966px;
 	height:381px;
-	overflow:auto;
+	overflow: hidden;
+	position: relative;
 }
 
 .slideshow {
 	width:3864px;
 	height:366px;
-
 }
 
 .slide {
 	float:left;
 	width:966px;
 	height:366px;
+}
+
+#slideup-l {
+	position: absolute;
+	left: 10px;
+	top: 120px;
+}
+
+#slideup-r {
+	position: absolute;
+	right: 10px;
+	top: 120px;
 }
