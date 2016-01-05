@@ -15,9 +15,10 @@
 }
 
 .price {
+	margin-top:35px;
 	width: 190px;
-	float: left;
-	text-align: right;
+	float:left;
+	text-align: left;
 }
 
 .price li:first-child {
@@ -25,8 +26,8 @@
 }
 
 .tab li {
-	padding-left: 35px;
-	list-style-type: circle;
+	margin-left: 40px;
+	list-style-type: disc;
 }
 
 .conditions {
@@ -47,4 +48,36 @@
 
 .conditions a {
 	color: black;
+}
+
+.margin-child {
+	margin-top:7px;
+	margin-left:60px;
+	list-style-type: disc;
+}
+
+.margin-grandchild {
+	margin-left:75px;
+	list-style-type:none;
+	margin-top:7px;
+}
+.margin-grandchild li{
+	list-style-type:none;
+}
+
+.toetsenbord {
+	margin-left:115px;
+	margin-top:7px;
+}
+
+.pricemargin {
+	margin-top:25px;
+	margin-bottom:25px;
+	border:1px solid black;
+}
+
+.margin-father {
+	margin-top:7px;
+	margin-left:30px;
+	list-style-type: none
 }
