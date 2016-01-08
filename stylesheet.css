@@ -176,7 +176,6 @@ body {
 
 .social {
 	text-align: center;
-	margin-top:20px;
 }
 
 .social img {
@@ -285,4 +284,85 @@ body {
 
 .specrow img {
 	float: right;
+}
+
+
+.review {
+	text-align:center;
+}
+
+.review h2 {
+	padding:10px 0px;
+}
+
+.social {
+	text-align: center;
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+
+.social img {
+	margin-right: 15px;
+	margin-left:12px;
+	margin-top: 15px;
+}
+
+.slideshow img {
+	display:block;
+}
+
+.slidecontainer {
+	width:966px;
+	height:366px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideshow {
+	width:3864px;
+	height:366px;
+}
+
+.slide {
+	float:left;
+	width:966px;
+	height:366px;
+}
+
+#slideup-l {
+	position: absolute;
+	left: 10px;
+	top: 120px;
+}
+
+#slideup-r {
+	position: absolute;
+	right: 10px;
+	top: 120px;
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.titel h1 {
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
+
+.info {
+	width:466px;
+	float: left;
+}
+
+.info p {
+	padding: 5px 10px;
+}
+
+.info p:first-child {
+	margin-bottom:5px;
+}
+
+#map	 {
+	float:right;
 }
