@@ -366,3 +366,28 @@ body {
 #map	 {
 	float:right;
 }
+
+.form-group {
+	display:flex;
+	/*flex-direction:column;*/
+}
+
+.form-group label {
+	width:60px;
+	margin:10px 10px 10px 10px;
+}
+
+.form-group textarea, .form-group input {
+	border:1px solid black;
+	margin:10px 10px 10px 50px;
+	width:225px;
+	resize:vertical;
+	max-height: 400px;
+}
+
+.form-group input[type="submit"] {
+	width:50px;
+	margin-left:308px;
+	/*align-self:flex-end;*/
+
+}
