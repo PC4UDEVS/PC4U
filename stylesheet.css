@@ -424,7 +424,6 @@ body {
 }
 .form-group {
 	display:flex;
-	/*flex-direction:column;*/
 }
 
 .form-group label {
@@ -436,7 +435,7 @@ body {
 	border:1px solid black;
 	margin:10px 10px 10px 50px;
 	width:225px;
-	resize:vertical;
+	resize: none;
 	max-height: 400px;
 }
 
