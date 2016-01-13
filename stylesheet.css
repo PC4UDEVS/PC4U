@@ -445,7 +445,5 @@ body {
 
 .form-group input[type="submit"] {
 	width:50px;
-	margin-left:308px;
-	/*align-self:flex-end;*/
-
+	margin-left:347px;
 }
