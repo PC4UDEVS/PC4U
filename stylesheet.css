@@ -48,11 +48,12 @@ body {
 	display: block;
 	text-align: center;
 	float: left;
-	font-size: 25px;
+	font-size: 22px;
 	border-right: 3px solid white;
 	background-color: #01a6e8;
-	width: 190.8px;
+	width: 158.5px;
 	font-family: 'Karla', sans-serif;
+	margin-top: 3px;
 }
 
 .nav li:first-child {
