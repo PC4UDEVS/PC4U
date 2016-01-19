@@ -1,0 +1,22 @@
+.form-register {
+	display:flex;
+	justify-content:center;
+}
+
+.form-register label {
+	width:100px;
+	margin:10px 10px 10px 10px;
+}
+
+.form-register textarea, .form-register input {
+	border:1px solid black;
+	margin:10px 10px 10px 50px;
+	width:225px;
+	resize: none;
+	max-height: 400px;
+}
+
+.form-register input[type="submit"] {
+	width:50px;
+	margin-left:347px;
+}

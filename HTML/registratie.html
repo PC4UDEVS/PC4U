@@ -7,7 +7,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 		<meta charset="UTF-8">
 		<link href="../stylesheet.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="style-login.css" type="text/css">
+		<link rel="stylesheet" href="../style-register.css" type="text/css">
 </head>
 <body>
 	<div class="container">
@@ -37,28 +37,39 @@
 				</div>
 			<div class="form-container">
 				 <form>
-			          <div class="form-login">
-			            <label for="first-name">Gebruikersnaam </label>
+			          <div class="form-register">
+			            <label for="first-name">Gebruikersnaam:</label>
+			            <input type="text" id="user-name">
+			          </div>
+			          <div class="form-register">
+			            <label for="password">Wachtwoord:</label>
+			            <input type="text" id="password">
+			          </div>
+			          <div class="form-register">
+			            <label for="confirm-password">Bevestig wachtwoord:</label>
+			            <input type="text" id="confirm-password">
+			          </div>
+			          <div class="form-register">
+			            <label for="last-name">Naam:</label>
+			            <input type="text" id="last-name">
+			          </div>
+			          <div class="form-register">
+			            <label for="first-name">Roepnaam:</label>
 			            <input type="text" id="first-name">
 			          </div>
-			          <div class="form-login">
-			            <label for="last-name">Naam: </label>
-			            <input type="text" id="last-name">
-			          </div>
-			          <div class="form-login">
-			            <label for="email">Roepnaam: </label>
-			            <input type="text" id="email">
-			          </div>
-						<div class="form-login">
-			            <label for="email">E-mail: </label>
+						<div class="form-register">
+			            <label for="email">E-mail:</label>
 			            <input type="email" id="email">
 			          </div>
-			          <div class="form-login">
-			            <label for="last-name">Achternaam: </label>
-			            <input type="text" id="last-name">
+			          <div class="form-register">
+			            <label for="confirm-email">Bevestig e-mail:</label>
+			            <input type="text" id="confirm-e-mail">
 			          </div>
-			          
-			          <div class="form-login">
+			          <div class="form-register">
+			            <label for="date">Geboortedatum:</label>
+			            <input type="date" name="birth-date" placeholder="DD-MM-JJJJ">
+			          </div>
+			          <div class="form-register">
 			            <input type="submit" value="send">
 			          </div>
 			        </form>					
