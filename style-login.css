@@ -1,25 +1,49 @@
 .form-container {
 	display: flex;
 	justify-content: center;
+	height: 300px;
+	align-items: center;
 }
 
-.form-container input[type="text"], .form-container input[type="password"] {
+.form-container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	width: 350px;
+	height: 200px;
+	background-image: url(http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/Green/12_image.jpg);
+}
+
+.form-login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.line {
+	flex-direction: row;
+	align-items: center;
+}
+
+.form-login input[type="text"], .form-login input[type="password"] {
 	border: 1px solid #bfbfbf;
 }
 
-.form-container .line {
-	display: inline;
+.form-login input[type="checkbox"] {
+	margin: 0 10px;
 }
 
-.form-container label {
-	display: block;
-}
-
-.form-container input[type="checkbox"] {
-	vertical-align: middle;
-}
-
-.form-container input[type="submit"] {
-	padding: 2px 5px;
+.form-login input[type="submit"] {
+	padding: 3px 20px;
 	border: 1px solid #bfbfbf;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.form-login a {
+	text-shadow: none;
 }
