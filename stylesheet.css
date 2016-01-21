@@ -481,6 +481,7 @@ body {
 
 .form-login input[type="text"], .form-login input[type="password"] {
 	border: 1px solid #bfbfbf;
+	padding: 0 5px;
 }
 
 .form-login input[type="checkbox"] {
