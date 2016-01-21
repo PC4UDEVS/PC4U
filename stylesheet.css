@@ -498,3 +498,38 @@ body {
 .form-login a {
 	text-shadow: none;
 }
+
+.form-register {
+	display:flex;
+	justify-content:center;
+}
+
+.form-register label {
+	width:100px;
+	margin:10px 10px 10px 10px;
+	color: white;
+	text-shadow: 1px 1px 4px black;
+}
+
+.form-register input {
+	width: 220px;
+	height: 20px;
+	border:1px solid black;
+	margin:10px 10px 10px 50px;
+	resize: none;
+	border: 1px solid #bfbfbf;
+}
+
+.form-register input[type="submit"] {
+	width:100px;
+	margin-left: 300px;
+	background-color: white;
+}
+
+.register-form form {
+	width:400px;
+	margin:50px auto;
+	border: 1px solid black;
+	background:url("images/registry.jpg");
+	background-size: cover;
+}
